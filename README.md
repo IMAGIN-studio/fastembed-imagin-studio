@@ -2,8 +2,8 @@
 >
 > Upstream fastembed 0.7.4 pins `pillow<12.0`, which blocks Pillow 12.x
 > security fixes ([CVE-2026-25990](https://nvd.nist.gov/vuln/detail/CVE-2026-25990)).
-> The fix PR ([#599](https://github.com/qdrant/fastembed/pull/599)) is merged
-> but unreleased.
+> The fix is merged on `main`
+> but not yet released ([#606](https://github.com/qdrant/fastembed/issues/606)).
 >
 > **What changed:** only the pillow version constraint — relaxed from `<12.0`
 > to `<13.0` for Python 3.10+. No logic changes.
