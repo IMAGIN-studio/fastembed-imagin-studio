@@ -1,3 +1,21 @@
+> **This is a temporary fork by [IMAGIN.studio](https://imagin.studio).**
+>
+> Upstream fastembed 0.7.4 pins `pillow<12.0`, which blocks Pillow 12.x
+> security fixes ([CVE-2026-25990](https://nvd.nist.gov/vuln/detail/CVE-2026-25990)).
+> The fix PR ([#599](https://github.com/qdrant/fastembed/pull/599)) is merged
+> but unreleased.
+>
+> **What changed:** only the pillow version constraint — relaxed from `<12.0`
+> to `<13.0` for Python 3.10+. No logic changes.
+>
+> **Published as:** [`fastembed-imagin`](https://pypi.org/project/fastembed-imagin/) on PyPI.
+>
+> **Revert plan:** once upstream releases fastembed 0.7.5+ with the pillow
+> fix, [`imagin-studio-api-docs-mcp`](https://github.com/IMAGIN-studio/imagin-studio-api-docs-mcp)
+> will switch back to `fastembed` and this fork will be archived.
+
+---
+
 # ⚡️ What is FastEmbed?
 
 FastEmbed is a lightweight, fast, Python library built for embedding generation. We [support popular text models](https://qdrant.github.io/fastembed/examples/Supported_Models/). Please [open a GitHub issue](https://github.com/qdrant/fastembed/issues/new) if you want us to add a new model.
