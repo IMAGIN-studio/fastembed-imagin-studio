@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "fastembed"
-version = "0.8.0"
-description = "Fast, light, accurate library built for retrieval embedding generation"
+name = "fastembed-imagin"
+version = "0.7.5.3"
+description = "Fast, light, accurate library built for retrieval embedding generation (IMAGIN.studio fork — temporary pillow 12 fix)"
 authors = ["Qdrant Team <info@qdrant.tech>", "NirantK <nirant.bits@gmail.com>"]
 license = "Apache License"
 readme = "README.md"
 packages = [{include = "fastembed"}]
-homepage = "https://github.com/qdrant/fastembed"
-repository = "https://github.com/qdrant/fastembed"
+homepage = "https://github.com/IMAGIN-studio/fastembed-imagin"
+repository = "https://github.com/IMAGIN-studio/fastembed-imagin"
 keywords = ["vector", "embedding", "neural", "search", "qdrant", "sentence-transformers"]
 
 [tool.poetry.dependencies]
