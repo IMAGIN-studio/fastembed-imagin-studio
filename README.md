@@ -11,7 +11,7 @@
 > **Published as:** [`fastembed-imagin`](https://pypi.org/project/fastembed-imagin/) on PyPI.
 >
 > **Revert plan:** once upstream releases fastembed 0.7.5+ with the pillow
-> fix, [`imagin-studio-api-docs-mcp`](https://github.com/IMAGIN-studio/imagin-studio-api-docs-mcp)
+> fix, [`imagin-studio-api-docs-mcp`](https://github.com/IMAGIN-studio/api-docs-mcp)
 > will switch back to `fastembed` and this fork will be archived.
 
 ---
