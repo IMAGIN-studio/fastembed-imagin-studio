@@ -10,7 +10,7 @@ try:
     version = importlib.metadata.version("fastembed")
 except importlib.metadata.PackageNotFoundError:
     try:
-        version = importlib.metadata.version("fastembed-imagin")
+        version = importlib.metadata.version("fastembed-imagin-studio")
     except importlib.metadata.PackageNotFoundError:
         version = importlib.metadata.version("fastembed-gpu")
 

@@ -8,7 +8,7 @@
 > **What changed:** only the pillow version constraint — relaxed from `<12.0`
 > to `<13.0` for Python 3.10+. No logic changes.
 >
-> **Published as:** [`fastembed-imagin`](https://pypi.org/project/fastembed-imagin/) on PyPI.
+> **Published as:** [`fastembed-imagin-studio`](https://pypi.org/project/fastembed-imagin-studio/) on PyPI.
 >
 > **Revert plan:** once upstream releases fastembed 0.7.5+ with the pillow
 > fix, [`imagin-studio-api-docs-mcp`](https://github.com/IMAGIN-studio/api-docs-mcp)
